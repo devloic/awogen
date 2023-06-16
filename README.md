@@ -2,7 +2,8 @@ Tired of manually defining appwrite collections and their attributes in a consta
 Define annotated classes with dart and let awogen create :
 
 - the corresponding collections with attributes
-- the final classes with fields mapping to attributes so you can you use autocompletion
+- the final classes with fields mapping to collection attributes so you can you use autocompletion inside your IDE
+- helper functions to read and write data
 
 ## Getting started
 
