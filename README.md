@@ -18,3 +18,4 @@ for instructions.
 - add more definitions: required, default, support arrays
 - add more helper functions in dart appwrite classes
 - target other languages?
+
