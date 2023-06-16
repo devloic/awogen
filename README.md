@@ -7,7 +7,7 @@ Define annotated classes with dart and let awogen create :
 ## Getting started
 
 check  
-[examples/awogen_cli_example/README.MD](examples/awogen_cli_example/README.MD)  
+[examples/awogen_cli_example/README.MD](examples/README.MD)  
 and  
 [examples/awogen_flutter_example/README.MD](examples/awogen_flutter_example/README.MD)  
 for instructions.   
