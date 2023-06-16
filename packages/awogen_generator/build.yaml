@@ -1,0 +1,18 @@
+#https://github.com/dart-lang/build/blob/master/build_config/README.md
+
+targets:
+  $default:
+    builders:
+    #'$definingPackageName:$targetname'
+      awogen_generator|awogen:
+        enabled: True
+
+
+builders:
+  awogen:
+    import: "package:awogen_generator/awogen_generator.dart"
+    builder_factories: ["awogenBuilder"] #Builder name(BuilderOptions)
+    build_extensions: { ".dart": [".awg.g.part"] }
+    build_to: cache
+    auto_apply: dependents
+    applies_builders: ["source_gen|combining_builder"]

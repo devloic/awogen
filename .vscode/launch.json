@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "awogen flutter example",
+            "type": "dart",
+            "cwd": "examples/awogen_flutter_example",
+
+            "request": "launch",
+            "program": "lib/main.dart",
+            "flutterMode": "debug"
+        },
+        
+        {
+            "name": "awogen cli example",
+            "cwd": "examples/awogen_cli_example",
+            "request": "launch",
+            "type": "dart"
+        },
+       
+        
+        
+       
+    ]
+}
