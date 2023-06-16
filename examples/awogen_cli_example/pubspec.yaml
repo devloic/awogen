@@ -1,0 +1,17 @@
+name: awogen_cli_example
+description: A sample command-line application with awogen
+version: 0.9.6
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dev_dependencies:
+
+  awogen_generator: ^0.9.7
+  build_runner: ^2.3.3
+  envied_generator: ^0.3.0+3
+  lints: 
+  test: 
+
