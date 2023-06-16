@@ -31,3 +31,6 @@ examples/awogen_cli_example/lib/awogen/env.awogen.g.dart
 examples/awogen_flutter_example/lib/order.g.dart
 .DS_Store
 examples/awogen_cli_example/.en.awogen.backup
+examples/awogen_cli_example/.env.awogen
+examples/awogen_flutter_example/.env.awogen
+examples/awogen_flutter_example/.env.awogen.backup
