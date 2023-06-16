@@ -15,8 +15,7 @@ an example project targeting the flutter platform with awogen
 | APPWRITE_USE_SERVERSDK=false | set it to true if you want to include appwrite server sdk |
 | PPWRITE_OBFUSCATE=true | PROJECTID, DATABASEID, ENDPOINT, APIKEY will be obfuscated in dart classes (uses envied) |
 
-
-Run commands below with [runme](https://runme.dev/) directly in this README.MD
+Run commands below with [runme](https://runme.dev/) directly in this README.MD with vscode
 
 [![Foo](https://badgen.net/static/Runme/install%20Runme&nbsp;vscode%20extension/5B3ADF)](vscode:extension/stateful.runme)
 
