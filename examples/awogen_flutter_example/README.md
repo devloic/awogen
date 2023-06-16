@@ -2,7 +2,9 @@
 
 an example project targeting the flutter platform with awogen
 
-- change configuration parameters in .env.awogen
+- change configuration parameters in .env.awogen (see .env.awogen.example)  
+
+### <u>for a flutter project you will need the appwrite client sdk, so set APPWRITE_USE_CLIENTSDK=true</u>
 
 | Key   |  description |
 |----------|:------|
@@ -15,32 +17,9 @@ an example project targeting the flutter platform with awogen
 | APPWRITE_USE_SERVERSDK=false | set it to true if you want to include appwrite server sdk |
 | PPWRITE_OBFUSCATE=true | PROJECTID, DATABASEID, ENDPOINT, APIKEY will be obfuscated in dart classes (uses envied) |
 
-Run commands below with [runme](https://runme.dev/) directly in this README.MD with vscode
+for awogen setup and build, please refer to the cli example. It is the same process:  
 
-[![Foo](https://badgen.net/static/Runme/install%20Runme&nbsp;vscode%20extension/5B3ADF)](vscode:extension/stateful.runme)
+[awogen_cli_example](../awogen_cli_example/README.md)
 
-```sh
-#add awogen_generator to your project
-dart pub add --dev awogen_generator
 
-#run awogen:install
-dart run awogen_generator:install
-# this will add envied_generator and build_runner to dev_dependencies
-# and run the install setup
-# you can also add the dependecies manually
-# dart pub add --dev envied_generator
-# dart pub add --dev build_runner:^2.3.3
 
-```
-
-```sh { background=false }
-#generate classes and collections
-dart run build_runner build -d
-```
-
-```sh { background=false interactive=true }
-#build_runner has a caching mechanism
-#you can delete the cache if it gets corrupted
-dart run build_runner clean
-
-```
