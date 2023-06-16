@@ -47,7 +47,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-  awogen_generator: ^0.9.7
+  awogen_generator: ^0.8.9
   build_runner: ^2.3.3
   envied_generator: ^0.3.0+3
 
